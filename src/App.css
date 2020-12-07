@@ -1,0 +1,183 @@
+.lol {
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.dir {
+  height: 120px;
+}
+
+.dir2 {
+  height: 120px;
+}
+
+.dir3 {
+  height: 120px;
+}
+
+.gomb {
+  background-color: white;
+  border: none;
+  height: 150px;
+  position: absolute;
+  padding: 15px;
+  top: 400px;
+}
+
+.gomb:hover {
+  background-color: #dfdfdf;
+}
+
+.gomb:active {
+  background-color: #c2c2c2;
+  transform: translateY(4px);
+}
+
+.gomb2 {
+  background-color: white;
+  border: none;
+  height: 150px;
+  position: absolute;
+  padding: 15px;
+  top: 600px;
+}
+
+.gomb2:hover {
+  background-color: #dfdfdf;
+}
+
+.gomb2:active {
+  background-color: #c2c2c2;
+  transform: translateY(4px);
+}
+
+.gomb3 {
+  background-color: white;
+  border: none;
+  height: 150px;
+  position: absolute;
+  padding: 15px;
+  top: 800px;
+}
+
+.gomb3:hover {
+  background-color: #dfdfdf;
+}
+
+.gomb3:active {
+  background-color: #c2c2c2;
+  transform: translateY(4px);
+}
+
+.name {
+  position: absolute;
+  top: 220px;
+  left: 40px;
+}
+
+.name2 {
+  text-align: center;
+}
+
+.form-contanier {
+  background: tomato;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0px 0px 10px 0px #c2c2c2;
+  margin-top: 170px;
+  opacity: 0.8;
+  width: 400px;
+}
+
+.bg {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.kep {
+  margin: 10px;
+}
+
+.kepem {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.usericon {
+  margin-left: 10px;
+  margin-top: 10px;
+  position: absolute;
+  font-size: large;
+}
+
+.email input {
+  padding-left: 50px;
+}
+
+.admin-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-sidebar {
+  flex: 3;
+}
+
+.admin-content {
+  margin-left: 200px;
+  margin-top: 100px;
+  flex: 7;
+  padding-top: 350px;
+  padding-right: 100px;
+}
+
+.admin-content2 {
+  padding-left: 200px;
+  margin-top: 100px;
+  flex: 6;
+  padding-top: 350px;
+  padding-right: 400px;
+}
+
+.masik {
+  visibility: hidden;
+}
+
+.admincardimg {
+  width: 100px;
+  height: 100px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.invalid_table {
+}
+
+.ikon {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  margin-right: 15px;
+  filter: invert(100%) sepia(13%) saturate(7447%) hue-rotate(283deg)
+    brightness(115%) contrast(115%);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.kepecske {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
